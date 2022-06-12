@@ -1,0 +1,1 @@
+Prototype chain occurs when objects extend from other objects and inherit all of the properties of all the objects before it until undefined. This means an object can use methods and properties from the object it inherits from. 

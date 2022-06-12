@@ -3,10 +3,14 @@
   border: 0;
 }
 
+.box {
+  display: flex;
+  height: 100vh;
+}
+
 .container-left {
   float: left;
   background-color: red;
-  height: 100vh;
   width: 300px;
   color: white;
   font-size: 2em;
@@ -16,9 +20,14 @@
 .container-right {
   float: right;
   background-color: blue;
-  height: 100vh;
-  width: calc(100vw - 380px);
+  width: 300px;
   color: white;
+  font-size: 2em;
+  padding: 20px;
+}
+
+.container-middle {
+  background-color: purple;
   font-size: 2em;
   padding: 20px;
 }

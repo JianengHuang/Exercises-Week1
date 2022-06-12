@@ -1,0 +1,18 @@
+Code Results + Explanation: 
+
+script start
+// setTimeout called
+// async1() called
+async start
+// async2() called
+async2
+// promise called
+promise1
+// resolve() called
+script end
+// async2() finishes
+async1 end
+// promise resolves
+promise2
+// setTimeout ends
+setTimeout

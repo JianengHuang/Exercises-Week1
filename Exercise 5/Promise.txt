@@ -1,0 +1,4 @@
+Promise is an object that might return a value in the future, it has 3 states:
+    - Pending: The Promise hasn't been fullfiled or failed yet
+    - Fulfill: The Promise has been fulfilled
+    - Reject: There was an error

@@ -1,0 +1,24 @@
+Cookie:
+    -Expiry Date set by User
+    -Mainly used for server-side reading
+    -Smaller size limit
+    -Uses String key-value pair
+
+LocalStorage:
+    -Doesn't expire until removed
+    -Mainly used for client-side reading
+    -Bigger size limit
+    -Uses String key-value pair
+
+LocalStorage:
+    -Expires when the session(tab) is closed
+    -Mainly used for client-side reading
+    -Bigger size limit
+    -Uses String key-value pair
+
+IndexedDB:
+    -Doesn't expire until removed
+    -Mainly used for client-sided reading
+    -Bigger size limit
+    -Support different data types
+    -Asynchronous and event-driven

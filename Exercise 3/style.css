@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+.container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background-color: lightblue;
+  width: 600px;
+  height: 170px;
+  font-size: 3em;
+  padding: 10px;
+  text-align: center;
+}
