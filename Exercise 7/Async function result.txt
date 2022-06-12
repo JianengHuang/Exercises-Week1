@@ -12,6 +12,7 @@ promise1
 script end
 // async2() finishes
 async1 end
+// async1() finishes
 // promise resolves
 promise2
 // setTimeout ends
